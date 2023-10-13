@@ -1,0 +1,21 @@
+.body {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.name-transformations {
+  margin: 0;
+}
+
+button {
+  margin: 5px;
+}
