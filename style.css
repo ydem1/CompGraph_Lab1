@@ -1,5 +1,5 @@
 .body {
-  margin: 0;
+  margin: 150px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -8,8 +8,7 @@
 .controls {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  
+  gap: 20px;
 }
 
 .name-transformations {
@@ -17,5 +16,14 @@
 }
 
 button {
-  margin: 5px;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.control__item {
+  padding-block: 5px;
+}
+
+.input__label {
+  display: block;
 }

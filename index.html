@@ -16,8 +16,34 @@
         Евклідові перетворення 
       </p>
 
-      <button id="translateBtn">Зсув</button>
-      <button id="rotateBtn">Обертання</button>
+      <form id="euclidean-transformations__form">
+        <div class="control__item">
+          <label class="input__label" for="moveX">Move X</label>
+          <input class="input__number" type="number" id="moveX" name="moveX">
+        </div>
+      
+        <div class="control__item">
+          <label class="input__label" for="moveY">Move Y</label>
+          <input class="input__number" type="number" id="moveY" name="moveY">
+        </div>
+
+        <div class="control__item">
+          <label class="input__label" for="RotateX">Rotate X</label>
+          <input class="input__number" type="number" id="RotateX" name="RotateX">
+        </div>
+
+        <div class="control__item">
+          <label class="input__label" for="RotateY">Rotate Y</label>
+          <input class="input__number" type="number" id="RotateY" name="RotateY">
+        </div>
+      
+        <div class="control__item">
+          <label class="input__label" for="Angle">Angle</label>
+          <input class="input__number" type="number" id="Angle" name="Angle">
+        </div>
+      
+        <button type="submit" value="Відправити">Submit</button>
+      </form>
     </div> 
 
     <div class="athenian-transformations">
@@ -25,8 +51,25 @@
         Афінні перетворення
       </p>
 
-      <button id="symmetryBtn">Симетрія</button>
-      <button id="scaleBtn">Масштабування</button>
+      <form id="athenian-transformations__form">
+        <div class="control__item">
+          <label class="input__label" for="scaleX">Scale X</label>
+          <input class="input__number" type="number" id="scaleX" name="scaleX">
+        </div>
+
+        <div class="control__item">
+          <label class="input__label" for="scaleY">Scale Y</label>
+          <input class="input__number" type="number" id="scaleY" name="scaleY">
+        </div>
+      
+        <button type="submit" value="Відправити">Submit</button>
+      </form>
+
+      <div class="control__item">
+        <label class="input__label">Симетрія</label>
+        <button id="symmetryBtn">Submit</button>
+      </div>
+      
     </div> 
 
     <div class="projective-transformations">
